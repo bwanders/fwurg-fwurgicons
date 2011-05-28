@@ -32,7 +32,7 @@ class action_plugin_fwurgicons extends DokuWiki_Action_Plugin {
 			$picker = array();
 			foreach($icons as $key=>$icon){
 				if($icon['page']) {
-					$picker['#'.$key] = $icon['image'];
+					$picker['(:'.$key.')'] = $icon['image'];
 				}
 			}
 
