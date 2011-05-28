@@ -33,14 +33,14 @@ class syntax_plugin_fwurgicons extends DokuWiki_Syntax_Plugin {
      * Connect pattern to lexer
      */
     function connectTo($mode) {       
-      $this->Lexer->addSpecialPattern(':(?:[^:]+?):',$mode,'plugin_fwurgicons');
+      $this->Lexer->addSpecialPattern('#(?:[-a-z+]+)',$mode,'plugin_fwurgicons');
     }
 
     /**
      * Handle the match
      */
     function handle($match, $state, $pos, &$handler){
-			if(preg_match('/:([^?]+?):/',$match,$m)) {
+			if(preg_match('/#(.+)/',$match,$m)) {
 				$icon = $this->helper->getIcon($m[1]);
 
 				if(!$icon) msg($this->getLang('unknown_icon').' '.$match,-1);

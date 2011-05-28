@@ -4,6 +4,16 @@
  */
 
 return array(
+'in' => array(
+	'title'=>'In',
+	'image'=>'in.png',
+	'aliases'=>array('immigration','plus')
+),
+'out' => array(
+	'title'=>'Out',
+	'image'=>'out.png',
+	'aliases'=>array('emmigration','min')
+),
 'tax' => array(
 	'page'=>'rules:taxes',
 	'title'=>'Taxes',
