@@ -52,7 +52,7 @@ class helper_plugin_fwurgicons extends DokuWiki_Plugin {
 	 * Returns an icon description array.
 	 */
 	function getIcon($iconstring) {
-		$overlays = split('\s*\+\s*',$iconstring);
+		$overlays = split('\+',$iconstring);
 		$base = trim(array_shift($overlays));
 		$overlay = trim(array_shift($overlays));
 
