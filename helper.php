@@ -69,6 +69,7 @@ class helper_plugin_fwurgicons extends DokuWiki_Plugin {
 			$overlayIcon = $this->_lookup(trim($overlay));
 			if(!$overlayIcon) return false;
 			$result['overlay'] = $overlayIcon['image'];
+			$result['title'] .= ', '.$overlayIcon['title'];
 		}
 
 		return $result;

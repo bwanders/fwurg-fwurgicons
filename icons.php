@@ -14,7 +14,7 @@ return array(
 'out' => array(
 	'title'=>'Out',
 	'image'=>'out.png',
-	'aliases'=>array('emmigration','min')
+	'aliases'=>array('emigration','min')
 ),
 'specialised' => array(
 	'title'=>'Specialised',
