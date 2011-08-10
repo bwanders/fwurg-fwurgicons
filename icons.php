@@ -160,5 +160,37 @@ return array(
 	'title'=>'Trade Capacity',
 	'image'=>'trade-capacity.png',
 	'aliases'=>array('cargo','tradecap')
+),
+
+'mass-transit-cargo-freighters' => array(
+	'page'=>'rules:mass_transit_cargo_freighters',
+	'title'=>'Mass Transit Cargo Freighters',
+	'image'=>'special-mass-transit-cargo-freighters.png',
+	'aliases'=>array('mtcf','freighters')
+),
+'holonet-relays' => array(
+	'page'=>'rules:holonet relays',
+	'title'=>'Holonet Relays',
+	'image'=>'special-holonet-relays.png',
+	'aliases'=>array()
+),
+'hyperspace-nodes'=>array(
+	'page'=>'rules:hyperspace_nodes',
+	'title'=>'Hyperspace Nodes',
+	'image'=>'special-hyperspace-nodes.png',
+	'aliases'=>array()
+),
+'terraformation-modules'=>array(
+	'page'=>'rules:terraformation_modules',
+	'title'=>'Terraformation Modules',
+	'image'=>'special-terraformation-modules.png',
+	'aliases'=>array('terraform')
+),
+'capital-ships'=>array(
+	'page'=>'rules:capital_ships',
+	'title'=>'Capital Ships',
+	'image'=>'special-capital-ships.png',
+	'aliases'=>array()
 )
+
 );
