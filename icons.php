@@ -4,6 +4,8 @@
  */
 
 return array(
+
+// Overlays
 'in' => array(
 	'title'=>'In',
 	'image'=>'in.png',
@@ -14,6 +16,13 @@ return array(
 	'image'=>'out.png',
 	'aliases'=>array('emmigration','min')
 ),
+'specialised' => array(
+	'title'=>'Specialised',
+	'image'=>'specialised.png',
+	'aliases'=>array('corp','spec')
+),
+
+// bases
 'tax' => array(
 	'page'=>'rules:taxes',
 	'title'=>'Taxes',
