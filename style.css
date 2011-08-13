@@ -1,3 +1,10 @@
-img.fwurgicon {
+.fwurgicon {
 	margin-top: -2px;
 }
+
+.fwurgicon, .fwurgicon span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+

@@ -58,14 +58,25 @@ class syntax_plugin_fwurgicons extends DokuWiki_Syntax_Plugin {
 			if(!$data) return false;
 
 			$R->doc .= '<a href="'.wl($data['page']).'" title="'.$data['title'].'">';
-			$R->doc .= '<img class="middle fwurgicon" ';
-			if(!$data['overlay']) {
-				$R->doc .= 'src="lib/plugins/fwurgicons/images/'.$data['base'].'"';
-			} else {
-				$R->doc .= 'style="background:url(lib/plugins/fwurgicons/images/'.$data['base'].')" ';
-				$R->doc .= 'src="lib/plugins/fwurgicons/images/'.$data['overlay'].'"';
+
+			$class = 'middle fwurgicon';
+			for($i=0;$i<count($data['overlay']);$i++) {
+				$image = 'lib/plugins/fwurgicons/images/'.$data['overlay'][$i];
+
+				if($i < count($data['overlay'])-1) {
+					// somewhere in the list
+					$R->doc .= "<span style='background:url($image) no-repeat' class='$class'>";
+				} else {
+					// last one in the list
+					$R->doc .= "<img class='$class' src='$image'/>";
+				}
+
+				// no class for non-first items
+				$class = '';
 			}
-			$R->doc .= '/>';
+
+			$R->doc .= str_repeat('</span>',count($data['overlay'])-1);
+
 			$R->doc .= '</a>';
     }
 }

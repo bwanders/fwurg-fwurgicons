@@ -54,21 +54,21 @@ class helper_plugin_fwurgicons extends DokuWiki_Plugin {
 	function getIcon($iconstring) {
 		$overlays = split('\+',$iconstring);
 		$base = trim(array_shift($overlays));
-		$overlay = trim(array_shift($overlays));
 
 		$base = $this->_lookup($base);
 		if(!$base) return false;
 
 		$result = array(
-			'base' =>$base['image'],
 			'title'=>$base['title'],
-			'page'=>$base['page']
+			'page'=>$base['page'],
+			'overlay'=>array($base['image'])
 		);
 
-		if($overlay) {
+		for($i=0;$i<count($overlays);$i++) {
+			$overlay = $overlays[$i];
 			$overlayIcon = $this->_lookup(trim($overlay));
 			if(!$overlayIcon) return false;
-			$result['overlay'] = $overlayIcon['image'];
+			$result['overlay'][] = $overlayIcon['image'];
 			$result['title'] .= ', '.$overlayIcon['title'];
 		}
 
