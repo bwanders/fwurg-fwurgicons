@@ -21,6 +21,11 @@ return array(
 	'image'=>'specialised.png',
 	'aliases'=>array('corp','spec')
 ),
+'labour' => array(
+	'title'=>'Labour',
+	'image'=>'labour.png',
+	'aliases'=>array('industry')
+),
 
 // bases
 'tax' => array(
@@ -28,6 +33,12 @@ return array(
 	'title'=>'Taxes',
 	'image'=>'tax.png',
 	'aliases'=>array()
+),
+'turns' => array(
+	'page'=>'rules:turn',
+	'title'=>'Turns',
+	'image'=>'turns.png',
+	'aliases'=>array('turn')
 ),
 'hex' => array(
 	'page'=>'rules:hex',
