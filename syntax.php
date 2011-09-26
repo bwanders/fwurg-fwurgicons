@@ -59,7 +59,13 @@ class syntax_plugin_fwurgicons extends DokuWiki_Syntax_Plugin {
 
 			$R->doc .= '<a href="'.wl($data['page']).'" title="'.$data['title'].'">';
 
-			$class = 'middle fwurgicon';
+			$class = 'middle';
+			if(count($data['overlay'])==1) {
+				$class .= ' fwurgicon-simple';
+			} else {
+				$class .= ' fwurgicon-complex';
+			}
+
 			for($i=0;$i<count($data['overlay']);$i++) {
 				$image = 'lib/plugins/fwurgicons/images/'.$data['overlay'][$i];
 
@@ -72,7 +78,7 @@ class syntax_plugin_fwurgicons extends DokuWiki_Syntax_Plugin {
 				}
 
 				// no class for non-first items
-				$class = '';
+				$class = 'fwurgicon-layer';
 			}
 
 			$R->doc .= str_repeat('</span>',count($data['overlay'])-1);

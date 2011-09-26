@@ -1,10 +1,15 @@
-.fwurgicon {
+.fwurgicon-simple {
 	margin-top: -2px;
 }
 
-.fwurgicon, .fwurgicon span {
+.fwurgicon-complex {
+	margin-top: -2px;
+
 	display: inline-block;
 	width: 15px;
 	height: 15px;
 }
 
+.fwurgicon-complex .fwurgicon-layer {
+	margin-bottom: -3px;
+}
