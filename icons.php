@@ -5,6 +5,58 @@
 
 return array(
 
+// Miscellaneous
+'special-point' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Special point',
+	'image'=>'special.png',
+	'aliases'=>array('special')
+),
+'gas-mass' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Gas mass',
+	'image'=>'mass-gas.png',
+	'aliases'=>array()
+),
+'rock-mass' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Rock mass',
+	'image'=>'mass-rock.png',
+	'aliases'=>array()
+),
+'bio-mass' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Bio mass',
+	'image'=>'mass-bio.png',
+	'aliases'=>array()
+),
+
+'cold-orbit' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Cold Orbit',
+	'image'=>'orbit-cold.png',
+	'aliases'=>array()
+),
+'gold-orbit' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Goldilocks Orbit',
+	'image'=>'orbit-gold.png',
+	'aliases'=>array()
+),
+'hot-orbit' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Hot Orbit',
+	'image'=>'orbit-hot.png',
+	'aliases'=>array()
+),
+'lunar-orbit' => array(
+	'page'=>'rules:unlinked',
+	'title'=>'Lunar Orbit',
+	'image'=>'orbit-lunar.png',
+	'aliases'=>array()
+),
+
+
 // Overlays
 'in' => array(
 	'title'=>'In',
@@ -19,7 +71,7 @@ return array(
 'specialised' => array(
 	'title'=>'Specialised',
 	'image'=>'specialised.png',
-	'aliases'=>array('corp','spec')
+	'aliases'=>array('corp')
 ),
 'labour' => array(
 	'title'=>'Labour',
