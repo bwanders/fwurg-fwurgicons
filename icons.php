@@ -37,11 +37,11 @@ return array(
 	'image'=>'orbit-cold.png',
 	'aliases'=>array()
 ),
-'gold-orbit' => array(
+'goldilocks-orbit' => array(
 	'page'=>'rules:unlinked',
 	'title'=>'Goldilocks Orbit',
 	'image'=>'orbit-gold.png',
-	'aliases'=>array()
+	'aliases'=>array('gold-orbit')
 ),
 'hot-orbit' => array(
 	'page'=>'rules:unlinked',
