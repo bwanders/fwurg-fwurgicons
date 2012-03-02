@@ -6,51 +6,51 @@
 return array(
 
 // Miscellaneous
-'special-point' => array(
-	'page'=>'rules:unlinked',
+'special-points' => array(
+	'page'=>'rules:special_points',
 	'title'=>'Special point',
 	'image'=>'special.png',
-	'aliases'=>array('special')
+	'aliases'=>array('special-point')
 ),
 'gas-mass' => array(
-	'page'=>'rules:unlinked',
+	'page'=>'rules:gas_mass',
 	'title'=>'Gas mass',
 	'image'=>'mass-gas.png',
 	'aliases'=>array()
 ),
 'rock-mass' => array(
-	'page'=>'rules:unlinked',
+	'page'=>'rules:rock_mass',
 	'title'=>'Rock mass',
 	'image'=>'mass-rock.png',
 	'aliases'=>array()
 ),
 'bio-mass' => array(
-	'page'=>'rules:unlinked',
+	'page'=>'rules:bio_mass',
 	'title'=>'Bio mass',
 	'image'=>'mass-bio.png',
 	'aliases'=>array()
 ),
 
 'cold-orbit' => array(
-	'page'=>'rules:unlinked',
+	'page'=>'rules:cold_orbit',
 	'title'=>'Cold Orbit',
 	'image'=>'orbit-cold.png',
 	'aliases'=>array()
 ),
 'goldilocks-orbit' => array(
-	'page'=>'rules:unlinked',
+	'page'=>'rules:goldilocks_orbit',
 	'title'=>'Goldilocks Orbit',
 	'image'=>'orbit-gold.png',
 	'aliases'=>array('gold-orbit')
 ),
 'hot-orbit' => array(
-	'page'=>'rules:unlinked',
+	'page'=>'rules:hot_orbit',
 	'title'=>'Hot Orbit',
 	'image'=>'orbit-hot.png',
 	'aliases'=>array()
 ),
 'lunar-orbit' => array(
-	'page'=>'rules:unlinked',
+	'page'=>'rules:lunar_orbit',
 	'title'=>'Lunar Orbit',
 	'image'=>'orbit-lunar.png',
 	'aliases'=>array()
