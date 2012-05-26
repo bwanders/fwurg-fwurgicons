@@ -2,8 +2,7 @@
 /**
  * FWURG Icons Plugin: Adds FWURG Icons to the wiki
  *
- * Syntax:     :icon-name:
- *   icon-name the name of the icon to place, or an alias of that icon
+ * Syntax:     (:icon-name+optionaloverlay1+optionaloverlay2)
  *
  * @author     Brend Wanders <b.wanders@xs4all.nl>
  */
