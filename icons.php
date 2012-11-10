@@ -254,6 +254,43 @@ return array(
 	'title'=>'Capital Ships',
 	'image'=>'special-capital-ships.png',
 	'aliases'=>array()
-)
+),
+
+'outer-offence'=>array(
+	'page'=>'rules:rings_of_defence',
+	'title'=>'Outer ring attack',
+	'image'=>'ring-attack-outer.png',
+	'aliases'=>array('outer-attack')
+),
+'middle-offence'=>array(
+	'page'=>'rules:rings_of_defence',
+	'title'=>'Middle ring attack',
+	'image'=>'ring-attack-middle.png',
+	'aliases'=>array('middle-attack')
+),
+'inner-offence'=>array(
+	'page'=>'rules:rings_of_defence',
+	'title'=>'Inner ring attack',
+	'image'=>'ring-attack-inner.png',
+	'aliases'=>array('inner-attack')
+),
+'outer-defence'=>array(
+	'page'=>'rules:rings_of_defence',
+	'title'=>'Outer ring defence',
+	'image'=>'ring-defence-outer.png',
+	'aliases'=>array()
+),
+'middle-defence'=>array(
+	'page'=>'rules:rings_of_defence',
+	'title'=>'Middle ring defence',
+	'image'=>'ring-defence-middle.png',
+	'aliases'=>array()
+),
+'inner-defence'=>array(
+	'page'=>'rules:rings_of_defence',
+	'title'=>'Inner ring defence',
+	'image'=>'ring-defence-inner.png',
+	'aliases'=>array()
+),
 
 );
