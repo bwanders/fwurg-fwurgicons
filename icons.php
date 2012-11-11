@@ -258,37 +258,37 @@ return array(
 
 'outer-offence'=>array(
 	'page'=>'rules:rings_of_defence',
-	'title'=>'Outer ring attack',
+	'title'=>'Outer Ring Attack',
 	'image'=>'ring-attack-outer.png',
 	'aliases'=>array('outer-attack')
 ),
 'middle-offence'=>array(
 	'page'=>'rules:rings_of_defence',
-	'title'=>'Middle ring attack',
+	'title'=>'Middle Ring Attack',
 	'image'=>'ring-attack-middle.png',
 	'aliases'=>array('middle-attack')
 ),
 'inner-offence'=>array(
 	'page'=>'rules:rings_of_defence',
-	'title'=>'Inner ring attack',
+	'title'=>'Inner Ring Attack',
 	'image'=>'ring-attack-inner.png',
 	'aliases'=>array('inner-attack')
 ),
 'outer-defence'=>array(
 	'page'=>'rules:rings_of_defence',
-	'title'=>'Outer ring defence',
+	'title'=>'Outer Ring Defence',
 	'image'=>'ring-defence-outer.png',
 	'aliases'=>array()
 ),
 'middle-defence'=>array(
 	'page'=>'rules:rings_of_defence',
-	'title'=>'Middle ring defence',
+	'title'=>'Middle Ring Defence',
 	'image'=>'ring-defence-middle.png',
 	'aliases'=>array()
 ),
 'inner-defence'=>array(
 	'page'=>'rules:rings_of_defence',
-	'title'=>'Inner ring defence',
+	'title'=>'Inner Ring Defence',
 	'image'=>'ring-defence-inner.png',
 	'aliases'=>array()
 ),
