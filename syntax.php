@@ -56,7 +56,9 @@ class syntax_plugin_fwurgicons extends DokuWiki_Syntax_Plugin {
 			if($mode != 'xhtml') return false;
 			if(!$data) return false;
 
-			$R->doc .= '<a href="'.wl($data['page']).'" title="'.$data['title'].'">';
+			list($id,$hash) = explode('#', $data['page'],2);
+
+			$R->doc .= '<a href="'.wl($id).(empty($hash)?'':('#'.$hash)).'" title="'.$data['title'].'">';
 
 			$class = 'middle';
 			if(count($data['overlay'])==1) {
