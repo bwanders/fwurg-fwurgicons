@@ -218,11 +218,30 @@ return array(
 	'image'=>'raw-rare-elements.png',
 	'aliases'=>array('rares')
 ),
+
 'trade-capacity' => array(
-	'page'=>'rules:trade_capacity',
+	'page'=>'rules:trade',
 	'title'=>'Trade Capacity',
 	'image'=>'trade-capacity.png',
-	'aliases'=>array('cargo','tradecap')
+	'aliases'=>array('tradecap')
+),
+'fleet-trade' => array(
+	'page'=>'rules:trade#trading_with_trade_fleets',
+	'title'=>'Fleet Trade Capacity',
+	'image'=>'fleet-trade.png',
+	'aliases'=>array('cargo')
+),
+'holonet-trade' => array(
+	'page'=>'rules:trade#trading_through_the_holonet',
+	'title'=>'Holonet Trade Capacity',
+	'image'=>'holonet-trade.png',
+	'aliases'=>array('holo-trade','bandwidth')
+),
+'open-market-trade' => array(
+	'page'=>'rules:trade#trading_with_the_open_market',
+	'title'=>'Open Market Trade Capacity',
+	'image'=>'open-market-trade.png',
+	'aliases'=>array('om-trade')
 ),
 
 'mass-transit-cargo-freighters' => array(
