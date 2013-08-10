@@ -92,11 +92,11 @@ return array(
 	'image'=>'turns.png',
 	'aliases'=>array('turn')
 ),
-'hex' => array(
-	'page'=>'rules:hex',
-	'title'=>'Hex',
+'sector' => array(
+	'page'=>'rules:sectors',
+	'title'=>'Sector',
 	'image'=>'hex-distance.png',
-	'aliases'=>array()
+	'aliases'=>array('hex')
 ),
 'population' => array(
 	'page'=>'rules:population',
@@ -275,6 +275,7 @@ return array(
 	'aliases'=>array()
 ),
 
+// combat icons
 'outer-offence'=>array(
 	'page'=>'rules:rings_of_defence',
 	'title'=>'Outer Ring Attack',
