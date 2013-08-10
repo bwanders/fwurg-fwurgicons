@@ -314,17 +314,17 @@ return array(
 ),
 
 // financial icons
-'credit'=>array(
+'credits'=>array(
     'page'=>'rules:credits',
-    'title'=>'Generic Credit',
+    'title'=>'Generic Credits',
     'image'=>'credit.png',
-    'aliases'=>array('cred')
+    'aliases'=>array('creds')
 ),
-'kelwaraan-credit'=>array(
+'kelwaraan-credits'=>array(
     'page'=>'rules:credits',
-    'title'=>'Kelwaraan Credit',
+    'title'=>'Kelwaraan Credits',
     'image'=>'credit-kelwaraan.png',
-    'aliases'=>array('kelwaraan','k-cred')
+    'aliases'=>array('kelwaraans','k-creds')
 ),
 
 );
