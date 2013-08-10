@@ -313,4 +313,18 @@ return array(
 	'aliases'=>array()
 ),
 
+// financial icons
+'credit'=>array(
+    'page'=>'rules:credits',
+    'title'=>'Generic Credit',
+    'image'=>'credit.png',
+    'aliases'=>array('cred')
+),
+'kelwaraan-credit'=>array(
+    'page'=>'rules:credits',
+    'title'=>'Kelwaraan Credit',
+    'image'=>'credit-kelwaraan.png',
+    'aliases'=>array('kelwaraan','k-cred')
+),
+
 );
