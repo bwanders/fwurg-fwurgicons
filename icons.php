@@ -274,6 +274,12 @@ return array(
 	'image'=>'special-capital-ships.png',
 	'aliases'=>array()
 ),
+'superstructure-components'=>array(
+    'page'=>'rules:superstructure_components',
+    'title'=>'Superstructure Components',
+    'image'=>'special-superstructure-components.png',
+    'aliases'=>array('components')
+),
 
 // combat icons
 'outer-offence'=>array(
