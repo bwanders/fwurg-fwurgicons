@@ -56,6 +56,19 @@ return array(
     'aliases'=>array()
 ),
 
+'experience-points' => array(
+    'page'=>'rules:jedi_experience',
+    'title'=>'Experience Points',
+    'image'=>'experience-points.png',
+    'aliases'=>array('xp', 'experience')
+),
+'influence-points' => array(
+    'page'=>'rules:influence_points',
+    'title'=>'Influence Points',
+    'image'=>'influence-points.png',
+    'aliases'=>array('ip', 'influence')
+),
+
 
 // Overlays
 'in' => array(
