@@ -1,8 +1,7 @@
 base fwurgicons
 author Brend Wanders
 email b.wanders@xs4all.nl
-date 2011-05-28
+date 2016-12-24
 name FWURG Icons
 desc Adds FWURG related icons to the wiki
-url http://tempest.student.utwente.nl/~brend/fwurg-wiki-plugins
-
+url https://github.com/bwanders/fwurg-fwurgicons

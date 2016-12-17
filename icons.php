@@ -123,6 +123,12 @@ return array(
     'image'=>'power.png',
     'aliases'=>array()
 ),
+'blue-power' => array(
+    'page'=>'rules:blue_power',
+    'title'=>'Blue Power',
+    'image'=>'blue-power.png',
+    'aliases'=>array('bp')
+),
 'construction-materials' => array(
     'page'=>'rules:construction_materials',
     'title'=>'Construction Materials (2 Metals)',
